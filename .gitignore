@@ -1,0 +1,67 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# バックエンド
+backend/.env
+backend/venv/
+backend/.pytest_cache/
+backend/logs/
+
+# フロントエンド
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/coverage/
+frontend/.vercel
+
+# エディタ/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+
+# ログファイル
+*.log
+logs/
+
+# その他
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+.cache/
+tmp/
+.git/
+docs/
